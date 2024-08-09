@@ -1,6 +1,7 @@
 FROM node:lts-iron
  
-WORKDIR /sharma_aditya_ui_garden/
+WORKDIR /web-component-library/
+
  
 COPY public/ /sharma_aditya_ui_garden/public
 COPY src/ /sharma_aditya_ui_garden/src
