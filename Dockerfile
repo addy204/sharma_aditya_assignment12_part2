@@ -8,5 +8,6 @@ COPY package.json /sharma_aditya_ui_garden/
 COPY . /sharma_aditya_ui_garden
  
 RUN npm install
+RUN npm run build
  
 CMD ["npm", "run", "storybook"]
